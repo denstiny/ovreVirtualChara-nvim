@@ -3,6 +3,7 @@
 * [OverVirTualChara-nvim](#overvirtualchara-nvim)
   * [演示](#演示)
   * [安装](#安装)
+  * [使用](#使用)
 
 <!-- vim-markdown-toc -->
 # OverVirTualChara-nvim  
@@ -19,4 +20,13 @@ use 'denstiny/ovreVirtualChara-nvim'
 > plugin
 ```vim
 plug 'denstiny/ovreVirtualChara-nvim'
+```
+## 使用
+> lua
+```lua
+require('overvir').initVirTool()
+```
+> vim
+```vim
+lua require('overvir').initVirTool()
 ```
