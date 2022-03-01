@@ -1,0 +1,18 @@
+*ovreVirtualChara* functionality for the potion programming language
+
+"==========================================================
+1. *highlight*
+2. *file type rules*
+
+"==========================================================
+                                                *highlight*
+
+*Activitycharacter*  Highlight the current line
+*Inactivecharacters* Other lines highlighted
+"==========================================================
+                                                *rule_file*
+
+*rules_file* is table 
+default local rules_file = {'startify','NvimTree','Trouble','Outline','norg','packer','lsp-installer','toggleterm'}
+Rule out these files
+
