@@ -2,7 +2,7 @@ local M = {}
 
 local ns_id = vim.api.nvim_create_namespace('OverVirTualChara')
 local overlay_start = true
-local rule_file = {'startify','NvimTree','Trouble','Outline','packer','lsp-installer','toggleterm'}
+local rule_file = {'startify','NvimTree','Trouble','Outline','packer','lsp-installer','toggleterm','help','CompetiTest'}
 
 ---------------------------------------------------------------
 --- 创建虚拟文本

@@ -3,7 +3,7 @@
 * [OverVirTualChara-nvim](#overvirtualchara-nvim)
   * [演示](#演示)
   * [安装](#安装)
-  * [使用](#使用)
+  * [配置](#配置)
 
 <!-- vim-markdown-toc -->
 # OverVirTualChara-nvim  
@@ -21,12 +21,14 @@ use 'denstiny/ovreVirtualChara-nvim'
 ```vim
 plug 'denstiny/ovreVirtualChara-nvim'
 ```
-## 使用
-> lua
+
+## 配置
+> lua 
 ```lua
-require('overvir').initVirTool()
-```
-> vim
-```vim
-lua require('overvir').initVirTool()
+local opts = {
+  overlay_start = true,
+  OverVirTualChara_c = '  .-||>',
+  rules_file = {'startify','NvimTree','Trouble','Outline','packer','lsp-installer','toggleterm','help','CompetiTest'}
+}
+require('overvir').setup(opts)
 ```
