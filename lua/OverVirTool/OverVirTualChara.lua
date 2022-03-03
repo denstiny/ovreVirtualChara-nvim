@@ -2,7 +2,7 @@ local M = {}
 
 local ns_id = vim.api.nvim_create_namespace('OverVirTualChara')
 local overlay_start = true
-local rule_file = {'startify','NvimTree','Trouble','Outline','norg','packer','lsp-installer','toggleterm'}
+local rule_file = {'startify','NvimTree','Trouble','Outline','packer','lsp-installer','toggleterm'}
 
 ---------------------------------------------------------------
 --- 创建虚拟文本
@@ -11,9 +11,6 @@ local rule_file = {'startify','NvimTree','Trouble','Outline','norg','packer','ls
 ---@param character 虚拟文本
 ---@return 
 function M.StartVisible(line_num,col_num,character,id)
-  -- if M.filterVirsiBle(line_num) == false then
-  --   return
-  -- end
   local bnr = vim.fn.bufnr('%')
   local Cur_line = vim.fn.line('.')
   local virt_text = {}
